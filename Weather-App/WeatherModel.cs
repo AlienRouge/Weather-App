@@ -32,7 +32,7 @@ namespace Weather_App
         public void NextState()
         {
             double alpha = _random.NextDouble();
-            TimeNext = (int) Math.Round(Math.Log(alpha) / Q[State][State] * 12);
+            TimeNext = (int) Math.Round(Math.Log(alpha) / Q[State][State] * 24);
 
             double[] localP = GetString(State);
             int i;
