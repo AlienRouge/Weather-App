@@ -43,6 +43,7 @@ namespace Weather_App
             this.label1 = new System.Windows.Forms.Label();
             this.ChiResultLbl = new System.Windows.Forms.Label();
             this.ChiLbl = new System.Windows.Forms.Label();
+            this.ByRudov_PolozhNeTvoyo = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.mainChart)).BeginInit();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -160,11 +161,20 @@ namespace Weather_App
             this.ChiLbl.Text = "Chi-Square is";
             this.ChiLbl.Visible = false;
             // 
+            // ByRudov_PolozhNeTvoyo
+            // 
+            this.ByRudov_PolozhNeTvoyo.AutoSize = true;
+            this.ByRudov_PolozhNeTvoyo.Location = new System.Drawing.Point(224, 434);
+            this.ByRudov_PolozhNeTvoyo.Name = "ByRudov_PolozhNeTvoyo";
+            this.ByRudov_PolozhNeTvoyo.Size = new System.Drawing.Size(0, 13);
+            this.ByRudov_PolozhNeTvoyo.TabIndex = 7;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(942, 536);
+            this.Controls.Add(this.ByRudov_PolozhNeTvoyo);
             this.Controls.Add(this.mainChart);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -173,6 +183,7 @@ namespace Weather_App
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -187,6 +198,7 @@ namespace Weather_App
         private System.Windows.Forms.Label ChiLbl;
         private System.Windows.Forms.Label ChiResultLbl;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label ByRudov_PolozhNeTvoyo;
     }
 }
 
